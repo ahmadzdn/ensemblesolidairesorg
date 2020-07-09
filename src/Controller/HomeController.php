@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class IndexController extends AbstractController
+class HomeController extends AbstractController
 {
 
     /**
@@ -21,9 +21,9 @@ class IndexController extends AbstractController
 
     public function number()
     {
-        $number = random_int(0, 100);
+        $number = random_int(0, 50);
 
-        return $this->render('index/index.html.twig', [
+        return $this->render('index.html.twig', [
             'number' => $number,
         ]);
     }
