@@ -173,6 +173,6 @@ class __TwigTemplate_ac5765b7c5d9d0f3342b28677d70fd544be54a128d758bb3b2f61f9f598
         {% block javascripts %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/Users/ahmadzeidan/Desktop/ensemblesolidairesorg/ES/templates/base.html.twig");
+", "base.html.twig", "/Users/ahmadzeidan/Desktop/ensemblesolidairesorg/templates/base.html.twig");
     }
 }
