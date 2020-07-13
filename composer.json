@@ -28,8 +28,10 @@
         "symfony/twig-pack": "^1.0",
         "symfony/validator": "5.1.*",
         "symfony/web-link": "5.1.*",
+        "symfony/webpack-encore-bundle": "^1.7",
         "symfony/yaml": "5.1.*",
-        "twbs/bootstrap": "^4.5"
+        "twbs/bootstrap": "^4.5",
+        "twig/intl-extra": "^3.0"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
