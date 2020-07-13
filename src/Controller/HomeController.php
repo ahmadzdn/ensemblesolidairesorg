@@ -19,7 +19,7 @@ class HomeController extends AbstractController
     @Route("/")
      */
 
-    public function number()
+    public function Home()
     {
         $number = random_int(0, 50);
 
